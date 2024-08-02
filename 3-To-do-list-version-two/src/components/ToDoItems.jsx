@@ -1,16 +1,13 @@
-import ToDoItem from "./AddToDo";
-import styles from "./Todoitems.module.css";
+import TodoItem from "./ToDoItem";
 
-const ToDoItems = ({ todoItems }) => {
+const TodoItems = ({ todoItems }) => {
   return (
-    <>
-      <div className={styles.itemsContainer}>
-        {todoItems.map((item) => (
-          <ToDoItem toDoName={item.name} toDoDate={item.date} />
-        ))}
-      </div>
-    </>
+    <div className="items-container">
+      {todoItems.map((item) => {
+        return <TodoItem todoDate={item.duedate} todoName={item.name} />;
+      })}
+    </div>
   );
 };
 
-export default ToDoItems;
+export default TodoItems;

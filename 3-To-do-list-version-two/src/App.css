@@ -1,15 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
-input{
+.todo-container{
     width: 100%;
 }
 
-
-
-.my-row{
-    margin: 10px 5px;
+.items-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
-.my-btn{
-    min-width: 80px;
+input{
+    width: 95%;
+}
+
+.app-items{
+    padding: 20px;
+    width: 90%;
+    font-size: 18px;
+    font-weight: 470;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.kg-row>.col-2>.kg-btn{
+    width: 90%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 450;
 }
