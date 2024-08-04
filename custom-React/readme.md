@@ -45,7 +45,7 @@ const reactElement = {
 const mainContainer = document.querySelector('#root');
 
 customRender(reactElement, mainContainer);
-
+```
 
 ### Key Points:
 1. **Example Code**: The example code provided shows how the function is used, along with the necessary input format.
