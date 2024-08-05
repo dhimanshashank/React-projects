@@ -6,6 +6,7 @@ Welcome to my collection of React projects! This repository serves as a showcase
 ## Projects Included
 - **To-Do App:** A simple task management application that allows users to add and delete tasks. This project helped me understand the basics of React components, state management, and event handling.
 - **Bharat Clock:** A real-time clock application displaying the current date and time in Bharat (India). This project deepened my knowledge of React hooks, particularly `useEffect` and `useState`, for managing time-based updates.
+- **CustomReact Renderer:** A simplified rendering function that mimics React's rendering process. This project involved creating a custom render function that takes a JavaScript object representing a React element and renders it as a DOM element. Through this exercise, I gained a deeper understanding of how React manages the Virtual DOM, reconciles changes, and applies attributes to DOM nodes. This hands-on experience also helped me explore modular programming concepts and DOM manipulation using vanilla JavaScript.
 
 ## Goals and Learnings
 ### Goals
