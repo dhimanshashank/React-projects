@@ -1,20 +1,14 @@
-import styles from "./App.module.css";
 import Screen from "./components/Screen";
+import styles from "./App.module.css";
+import ButtonsContainer from "./components/ButtonsContainer";
 
 function App() {
   return (
     <>
+    <h1>CALCIFY</h1>
       <div className={styles.calculator}>
         <Screen />
-
-        <div className={styles.buttons}>
-          <div className={styles.row}>
-            <button className={styles.button}>AC</button>
-            <button className={styles.button}>+/-</button>
-            <button className={styles.button}>%</button>
-            <button className={styles.button}>/</button>
-          </div>
-        </div>
+        <ButtonsContainer />
       </div>
     </>
   );

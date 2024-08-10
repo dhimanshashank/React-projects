@@ -1,0 +1,46 @@
+.buttonContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 25px;
+    font-weight: 450;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #4a4a4a;
+}
+
+.button:nth-child(-n+3),
+.button:nth-child(1) {
+    background-color: #6A6A69;
+}
+
+.button:nth-child(4n+4),
+.button:nth-child(19) {
+    background-color: #a06007;
+}
+
+/* Make the 17th child span across two columns */
+.button:nth-child(17) {
+    grid-column: span 2;
+    font-size: 25px;
+    border-radius: 20px;
+}

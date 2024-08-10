@@ -1,0 +1,21 @@
+input {
+    width: 95%;
+    height: 67px;
+    border: none;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    text-align: right;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    background-color: #3a3a3a;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
